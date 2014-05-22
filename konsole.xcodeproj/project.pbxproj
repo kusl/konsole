@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55D2BF60192EA77C009E5AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D2BF5F192EA77C009E5AF9 /* Foundation.framework */; };
-		55D2BF63192EA77C009E5AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2BF62192EA77C009E5AF9 /* main.m */; };
+		55D2BF63192EA77C009E5AF9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D2BF62192EA77C009E5AF9 /* main.mm */; };
 		55D2BF67192EA77C009E5AF9 /* konsole.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55D2BF66192EA77C009E5AF9 /* konsole.1 */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		55D2BF5C192EA77C009E5AF9 /* konsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = konsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D2BF5F192EA77C009E5AF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		55D2BF62192EA77C009E5AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55D2BF62192EA77C009E5AF9 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		55D2BF65192EA77C009E5AF9 /* konsole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "konsole-Prefix.pch"; sourceTree = "<group>"; };
 		55D2BF66192EA77C009E5AF9 /* konsole.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = konsole.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 		55D2BF61192EA77C009E5AF9 /* konsole */ = {
 			isa = PBXGroup;
 			children = (
-				55D2BF62192EA77C009E5AF9 /* main.m */,
+				55D2BF62192EA77C009E5AF9 /* main.mm */,
 				55D2BF66192EA77C009E5AF9 /* konsole.1 */,
 				55D2BF64192EA77C009E5AF9 /* Supporting Files */,
 			);
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D2BF63192EA77C009E5AF9 /* main.m in Sources */,
+				55D2BF63192EA77C009E5AF9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
