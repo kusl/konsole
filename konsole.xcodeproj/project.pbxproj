@@ -10,6 +10,7 @@
 		55D2BF60192EA77C009E5AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D2BF5F192EA77C009E5AF9 /* Foundation.framework */; };
 		55D2BF63192EA77C009E5AF9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D2BF62192EA77C009E5AF9 /* main.mm */; };
 		55D2BF67192EA77C009E5AF9 /* konsole.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55D2BF66192EA77C009E5AF9 /* konsole.1 */; };
+		55D2BF6F192EAABE009E5AF9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2BF6E192EAABE009E5AF9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		55D2BF62192EA77C009E5AF9 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		55D2BF65192EA77C009E5AF9 /* konsole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "konsole-Prefix.pch"; sourceTree = "<group>"; };
 		55D2BF66192EA77C009E5AF9 /* konsole.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = konsole.1; sourceTree = "<group>"; };
+		55D2BF6D192EAABE009E5AF9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		55D2BF6E192EAABE009E5AF9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				55D2BF62192EA77C009E5AF9 /* main.mm */,
 				55D2BF66192EA77C009E5AF9 /* konsole.1 */,
 				55D2BF64192EA77C009E5AF9 /* Supporting Files */,
+				55D2BF6D192EAABE009E5AF9 /* Person.h */,
+				55D2BF6E192EAABE009E5AF9 /* Person.m */,
 			);
 			path = konsole;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D2BF6F192EAABE009E5AF9 /* Person.m in Sources */,
 				55D2BF63192EA77C009E5AF9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
